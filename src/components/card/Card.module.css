@@ -1,0 +1,31 @@
+.card {
+  width: 311px;
+  height: 254px;
+  background-color: var(--color-black);
+  color: var(--color-white);
+  margin: 20px;
+  border-radius: 10px;
+  padding: 20px;
+}
+
+.card p {
+  font-size: 24px;
+  font-weight: 400;
+  text-align: left;
+  line-height: 29px;
+  margin-top: 10px;
+}
+
+.top {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 20px;
+}
+
+.top h1 {
+  text-align: left;
+  color: var(--color-blue);
+  font-weight: 500;
+  line-height: 29px;
+}
