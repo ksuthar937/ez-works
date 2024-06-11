@@ -147,6 +147,54 @@ button:hover {
 }
 
 @media screen and (min-width: 1240px) {
+  main {
+    position: absolute;
+    top: 10%;
+  }
+  header {
+    align-items: flex-start;
+  }
+  header h1 {
+    font-size: 48px;
+    line-height: 58px;
+    text-align: left;
+  }
+
+  header p {
+    font-size: 32px;
+    line-height: 38px;
+    text-align: left;
+  }
+  .container {
+    display: grid;
+  }
+  .info {
+    grid-column: 1/2;
+    grid-row: 0/5;
+  }
+  .formdata {
+    grid-column: 1/2;
+    grid-row: 2/4;
+  }
+  .cards {
+    grid-column: 2/4;
+    grid-row: 1/5;
+  }
+
+  form {
+    flex-direction: row;
+  }
+  button {
+    width: 213px;
+    padding: 10px 10px;
+  }
+}
+
+@media screen and (min-width: 1799px) {
+  main {
+    position: absolute;
+    top: 20%;
+  }
   header {
     align-items: flex-start;
   }
